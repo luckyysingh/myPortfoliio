@@ -1,2 +1,2 @@
-# myPortfoliio
+# myPortfolio
 Lucky's Portfolio
