@@ -23,12 +23,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* ----- SMOOTH SCROLL ----- */
 html{
     scroll-behavior: smooth;
 }
 
-/* ----- CHANGE THE SCROLL BAR DESIGN ----- */
 ::-webkit-scrollbar{
     width: 10px;
     border-radius: 25px;
@@ -44,7 +42,6 @@ html{
     background: #bbb;
 }
 
-/* ----- GLOBAL BUTTON DESIGN ----- */
 .btn{
     font-weight: 500;
     padding: 12px 20px;
@@ -62,12 +59,10 @@ html{
     color: var(--color-white);
 }
 
-/* ----- GLOBAL ICONS DESIGN ----- */
 i{
     font-size: 16px;
 }
 
-/* ------- BASE -------- */
 body{
     background: var(--body-color);
 }
@@ -142,13 +137,10 @@ nav{
     border-radius: 50%;
 }
 
-
-/* ----- WRAPPER DESIGN ----- */
 .wrapper{
     padding-inline: 10vw;
 }
 
-/* ----- FEATURED BOX ----- */
 .featured-box{
     position: relative;
     display: flex;
@@ -156,7 +148,6 @@ nav{
     min-height: 700px;
 }
 
-/* ----- FEATURED TEXT BOX ----- */
 .featured-text{
     position: relative;
     display: flex;
@@ -219,7 +210,6 @@ nav{
     color: var(--first-color);
 }
 
-/* ----- FEATURED IMAGE BOX ----- */
 .featured-image{
     display: flex;
     justify-content: right;
@@ -282,7 +272,6 @@ nav{
     width: 50%;
 }
 
-/* -- ## --- RESUABLE CSS -- ## -- */
 .top-header{
     text-align: center;
     margin-bottom: 5em;
@@ -332,7 +321,6 @@ h3{
     background: var(--first-color-hover);
 }
 
-/* ----- ABOUT / SKILLS BOX ----- */
 .skills-box{
     margin: 10px;
 }
@@ -524,7 +512,7 @@ footer{
 }
 
 
-/* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
+/* ----- MEDIA QUERY ----- */
 @media only screen and (max-width: 1024px){
     .featured-text{
         padding: 0;
@@ -535,7 +523,6 @@ footer{
     }
 }
 
-/* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
 @media only screen and (max-width: 900px) {
     .nav-button{
         display: none;
@@ -613,8 +600,6 @@ footer{
     }
 
 }
-
-/* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 
 @media only screen and (max-width: 540px){
     .featured-name{
